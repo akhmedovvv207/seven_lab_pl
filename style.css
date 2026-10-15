@@ -1,0 +1,212 @@
+body {
+  font-family: Oswald, "Arial Narrow", Impact, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  line-height: 1.6;
+  background-image: url('images/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+header {
+  background-color: #004723;
+  color: #000000;
+  padding: 1px 0;
+}
+h1, h2, h3 {
+  color: #ffffff;
+}
+.prepairing, .sucsesses, .infa{
+  color: #000000;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo-block {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+.logo-img {
+  height: 65px;
+  width: auto;
+}
+.logo-text {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.logo-text span {
+  color: #078043;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+nav a:hover, nav a.active {
+  background-color: #078043;
+  color: #ffffff;
+}
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.hero {
+  background-color: #004420;
+  color: #ffffff;
+  border-left: 6px solid white;
+  border-radius: 6px;
+  padding: 25px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.hero-content {
+  flex: 1 1 500px;
+}
+.hero-media {
+  flex: 1 1 300px;
+}
+.hero h1 {
+  margin-top: 0;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+.card {
+  background-color: #ffffff;
+  border: 1px solid #c8d6c9;
+  border-top: 9px solid #005a2b;
+  border-radius: 6px;
+  padding: 15px;
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+  min-width: 270px;
+}
+.card img {
+  margin-bottom: 12px;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.card h3 {
+  color: #005a2b;
+  margin-top: 0;
+}
+.badge {
+  display: inline-block;
+  background-color: #d91921;
+  color: #ffffff;
+  padding: 3px 8px;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.btn {
+  display: inline-block;
+  background-color: #005a2b;
+  color: #ffffff;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.btn:hover {
+  background-color: #d91921;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+table, th, td {
+  border: 1px solid #c8d6c9;
+}
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+th {
+  background-color: #005a2b;
+  color: #ffffff;
+}
+tr:nth-child(even) {
+  background-color: #f0f5f1;
+}
+.team-photo {
+  height: 240px;
+  object-fit: cover;
+  object-position: top;
+}
+form label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+form input, form textarea, form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #c8d6c9;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+footer {
+  background-color: #004723;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 0;
+  margin-top: 40px;
+}
+table th, table td {
+  text-align: center;
+  vertical-align: middle;
+}
+table td img {
+  display: block;
+  margin: 0 auto 6px auto;
+  max-height: 40px;
+  width: auto;
+}

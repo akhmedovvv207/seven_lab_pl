@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Контакты - ХК Ак Барс</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Oswald:wght@500;600;700&display=swap&subset=cyrillic">
+  <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo-block">
+        <img src="images/logo.png" alt="Логотип" class="logo-img">
+        <span class="logo-text">АК <span>БАРС</span></span>
+      </a>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="team.html">Состав</a>
+        <a href="matches.html">Матчи</a>
+        <a href="news.html">Новости</a>
+        <a href="tickets.html">Билеты</a>
+        <a href="arena.html">Арена</a>
+        <a href="history.html">История</a>
+        <a href="media.html">Медиа</a>
+        <a href="store.html">Магазин</a>
+        <a href="partners.html">Партнёры</a>
+        <a href="contacts.html" class="active">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Контакты</h1>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>Кассы и офис</h3>
+        <p><strong>Адрес:</strong> Казань, ул. Чистопольская, 42</p>
+        <p><strong>Телефон:</strong> +7 (843) 527-85-85</p>
+        <p><strong>Email:</strong> info@ak-bars.ru</p>
+      </div>
+
+      <div class="card">
+        <h3>Задать вопрос</h3>
+        <form>
+          <label for="name">Имя:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Сообщение:</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+
+          <button type="submit" class="btn btn-accent">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; Хоккейный Клуб «Ак Барс» Казань.</p>
+    </div>
+  </footer>
+</body>
+</html>
