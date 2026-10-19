@@ -44,16 +44,19 @@
       <div class="card">
         <h3>Задать вопрос</h3>
         <form>
-          <label for="name">Имя:</label>
+          <label for="name">ФИО:</label>
           <input type="text" id="name" name="name" required>
 
+          <label for="email">Номер телефона:</label>
+          <input type="tel" id="number" name="number" placeholder="+7 (___) ___ ___" required>
+
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
 
           <label for="message">Сообщение:</label>
-          <textarea id="message" name="message" rows="4"></textarea>
+          <textarea id="message" name="message" rows="5"></textarea>
 
-          <button type="submit" class="btn btn-accent">Отправить</button>
+          <button type="button" class="btn btn-accent" onclick="sendMessage()">Отправить</button>
         </form>
       </div>
     </div>
@@ -63,6 +66,12 @@
     <div class="container">
       <p>&copy; Хоккейный Клуб «Ак Барс» Казань.</p>
     </div>
+    <script>
+      function sendMessage() {
+        alert('Благодарим вас за обращение! Ваше сообщение было отправлено, мы его рассматриваем. Ответим в скором времени.');
+        document.querySelector('form').reset();
+      }
+    </script>
   </footer>
 </body>
 </html>
